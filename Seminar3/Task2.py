@@ -22,4 +22,4 @@ for i in range(1, N):
     if count < min:
         min = count
         index = i
-print(f'Число {A[index]} в списке A наиболее близко по величине к числу {X}, их разница составляет {abs(X - A[index])}')
+print(f'Число {A[index]} в списке A наиболее близко по величине к числу {X}, их разница составляет {X - A[index]}')
